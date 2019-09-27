@@ -1,0 +1,28 @@
+.Events {
+    list-style: none;
+    margin: auto;
+    max-width: 800px;
+    padding: 0;
+}
+
+.Event {
+    border-bottom: solid 1px var(--orange); 
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+    height: 120px;
+}
+
+.Event-date {
+    font-size: 40px;
+    margin: 0;
+    flex: 1;
+}
+
+.Event-main {
+    flex: auto;
+}
+
+.Event--special {
+    border-left: solid 5px red;
+}
