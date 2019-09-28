@@ -24,12 +24,12 @@ function App() {
         {Object.keys(events).map((month) => {
           return (
             <div>
-            <h3>{month}</h3>
-            <ul className="Events">
-              {events[month].map(event => {
-                return <Event {...event} key={event.date} />
-              })}
-          </ul>
+              <h3>{month}</h3>
+              <ul className="Events">
+                {events[month].map(event => {
+                  return <Event {...event} key={event.date} />
+                })}
+            </ul>
           </div>
           );
         })}
@@ -38,7 +38,7 @@ function App() {
         <div className="Banner Banner--contact">
           <div className="Banner-fade"></div>
           <p className="Banner-text">
-            Interested?
+            Interested? {''}
             We'd love to have you.
             Email us at <a href="mailto:20s@gracefellowshipchurch.org">20s@gracefellowshipchurch.com</a>
           </p>
