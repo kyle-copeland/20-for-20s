@@ -3,6 +3,7 @@
     margin: auto;
     max-width: 800px;
     padding: 0;
+    margin-bottom: 40px;
 }
 
 .Event {
@@ -11,12 +12,20 @@
     align-items: center;
     justify-items: flex-start;
     height: 120px;
+    padding: 16px;
+}
+
+.Event-description {
+    margin: 0;
+}
+
+.Event-location {
+    margin: 0;
 }
 
 .Event-date {
-    font-size: 40px;
     margin: 0;
-    flex: 1;
+    max-width: 150px;
 }
 
 .Event-main {
