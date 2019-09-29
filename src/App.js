@@ -24,7 +24,7 @@ function App() {
         {Object.keys(events).map((month) => {
           return (
             <div>
-              <h3>{month}</h3>
+              <h3 className="Month">{month}</h3>
               <ul className="Events">
                 {events[month].map(event => {
                   return <Event {...event} key={event.date} />

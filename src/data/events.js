@@ -4,6 +4,7 @@ export default {
         description: 'Fall Session Kick-Off!',
     }, {
         date: 'Oct 8th',
+        podcast: 'https://realitycarpinteria.com/sermons/the-sermon-and-summons-of-the-king/'
     }, {
         date: 'Oct 15th',
     }, {

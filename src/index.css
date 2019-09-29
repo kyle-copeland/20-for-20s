@@ -3,6 +3,10 @@
   --orange: #d09a58; 
   --yellow: #d4c675;
   --red: #ab4747;
+
+  --heading-font: 3rem;
+  --regular-font: 2rem;
+  font-size: 8px;
 }
 
 body {
@@ -12,7 +16,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 16px;
 }
 
 code {
@@ -20,24 +23,40 @@ code {
     monospace;
 }
 
+.u-uppercase {
+  text-transform: uppercase;
+}
+ 
 .u-highlight {
   color: var(--red);
   font-weight: 600;
 }
 
 a {
+  font-size: var(--regular-font);
   color: var(--red);
 }
 
 a:hover {
-  color: white;
+  color: black;
 }
 
 h2 {
   color: var(--red);
+  text-transform: uppercase;
 }
+
+h1, h2, h3, h4 {
+  font-size: var(--heading-font);
+}
+
+p {
+  font-size: var(--regular-font);
+}
+
 @media (min-width: 720px) {
-  body {
-    font-size: 32px;
+  :root {
+    --heading-font: 4rem;
+    --regular-font: 3rem;
   }
 }
