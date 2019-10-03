@@ -1,9 +1,10 @@
 .Events {
     list-style: none;
     margin: auto;
-    max-width: 800px;
+    max-width: 100rem;
     padding: 0;
-    margin-bottom: 40px;
+    margin-bottom: 5rem;
+    padding: 4rem;
 }
 
 .Event {
@@ -12,7 +13,7 @@
     align-items: center;
     justify-items: flex-start;
     height: 120px;
-    padding: 16px;
+    padding: 2rem;
 }
 
 .Event-description {
@@ -29,7 +30,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: ;
 }
 .Event-date {
     margin: 0;

@@ -3,7 +3,8 @@
   --orange: #d09a58; 
   --yellow: #d4c675;
   --red: #ab4747;
-
+  --dark-red: #7e3e3e;
+  --black: 	#3c3c45;
   --heading-font: 3rem;
   --regular-font: 2rem;
   font-size: 8px;
@@ -16,6 +17,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--black);
 }
 
 code {
@@ -34,11 +36,11 @@ code {
 
 a {
   font-size: var(--regular-font);
-  color: var(--red);
+  color: var(--dark-red);
 }
 
 a:hover {
-  color: black;
+  color: var(--black);
 }
 
 h2 {

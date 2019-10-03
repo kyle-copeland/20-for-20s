@@ -38,7 +38,7 @@
 
 .Banner-fade {
   position: absolute;
-  background: var(--red);
+  background: var(--orange);
   height: 100%;
   width: 100%;
   opacity: 0.9;
@@ -55,7 +55,15 @@
 }
 
 .Banner--contact .Banner-fade {
-  background: var(--orange);
+  background: var(--yellow);
+}
+
+.Banner--about-us {
+  background-image: url('/backbay.jpg');
+}
+
+.Banner--about-us .Banner-fade {
+  background: var(--red);
 }
 
 .App-header {
@@ -70,4 +78,10 @@
 
 .Month {
   text-transform: uppercase;
+}
+
+.AboutUs {
+  margin: auto;
+  max-width: 100rem;
+  padding: 4rem;
 }
