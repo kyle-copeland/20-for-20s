@@ -6,14 +6,20 @@ export default {
         date: 'Oct 8th',
         podcast: 'https://realitycarpinteria.com/sermons/the-sermon-and-summons-of-the-king/'
     }, {
+        date: 'Oct 13th',
+        description: '🍴 Church Picnic',
+        location: 'William Mason Park',
+        time: '10:30 AM',
+        moreInfo: 'https://gracefellowshipchurch.org/event/grace-all-church-picnic/5710'
+    }, {
         date: 'Oct 15th',
+        podcast: 'https://realitycarpinteria.com/sermons/gods-good-news-for-the-unexpected-and-undeserving/'
     }, {
         date: 'Oct 22nd',
     }, {
         date: 'Oct 29th',
-        location: 'TBD',
-        description: 'Halloween Event!',
-        time: 'TBD'
+        description: '🎃 Halloween Event',
+        details: 'Bring a pumpkin for carving',
     }],
     'November': [{
         date: 'Nov 5th',
@@ -22,7 +28,7 @@ export default {
     }, {
         date: 'Nov 19th',
         location: 'TBD',
-        description: 'Friendsgiving!',
+        description: '🦃 Friendsgiving!',
         time: 'TBD'
     }],
     'December': [{
@@ -32,7 +38,7 @@ export default {
     },  {
         date: 'Dec 17th',
         location: 'TBD',
-        description: 'Christmas Event!',
+        description: '🎅 Christmas Event!',
         time: 'TBD'
     }], 
     'January': [{

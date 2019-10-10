@@ -17,26 +17,23 @@
 }
 
 .Event-description {
-    margin: 0;
     color: var(--orange);
     font-size: var(--heading-font);
-}
-
-.Event-location {
-    margin: 0;
 }
 
 .Event-start {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 20rem;
 }
+
+.Event-details {
+    font-size: var(--help-text-font);
+}
+
 .Event-date {
-    margin: 0;
     max-width: 150px;
-}
-.Event-time {
-    margin: 0;
 }
 
 .Event-main {

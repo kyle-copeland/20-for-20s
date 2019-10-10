@@ -7,6 +7,7 @@
   --black: 	#3c3c45;
   --heading-font: 3rem;
   --regular-font: 2rem;
+  --help-text-font: 1.8rem;
   font-size: 8px;
 }
 
@@ -61,4 +62,8 @@ p {
     --heading-font: 4rem;
     --regular-font: 3rem;
   }
+}
+
+.u-no-margin {
+  margin: 0;
 }
