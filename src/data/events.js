@@ -27,12 +27,11 @@ export default {
     }],
     'November': [{
         date: 'Nov 5th',
-        description: 'God\'s Law',
-        podcast: 'https://realitycarpinteria.com/sermons/getting-the-story-of-gods-law-right/'
+        description: 'How to Discuss'
     }, {
         date: 'Nov 12th',
-        description: 'The Lord\'s Prayer',
-        podcast: 'https://realitycarpinteria.com/sermons/the-lords-prayer/'
+        description: 'God\'s Law',
+        podcast: 'https://realitycarpinteria.com/sermons/getting-the-story-of-gods-law-right/'
     }, {
         date: 'Nov 19th',
         location: 'TBD',
@@ -41,47 +40,48 @@ export default {
     }],
     'December': [{
         date: 'Dec 3rd',
+        description: 'The Lord\'s Prayer',
+        podcast: 'https://realitycarpinteria.com/sermons/the-lords-prayer/'
+    }, {
+        date: 'Dec 10th',
         description: 'Forgiving Others',
         podcast: 'https://realitycarpinteria.com/sermons/forgiving-others-part-2/'
     }, {
-        date: 'Dec 10th',
-        description: 'Fasting',
-        podcast: 'https://realitycarpinteria.com/sermons/the-reward-of-fasting/'
-    },  {
         date: 'Dec 17th',
         location: 'TBD',
         description: '🎅 Christmas Event!',
         time: 'TBD'
     }], 
-    'January': [{
+    'January': [ {
         date: 'Jan 7th',
+        description: 'Fasting',
+        podcast: 'https://realitycarpinteria.com/sermons/the-reward-of-fasting/'
+    }, {
+        date: 'Jan 14th',
         description: 'Problem with Treasure',
         podcast: 'https://realitycarpinteria.com/sermons/the-problem-with-treasure/'
     }, {
-        date: 'Jan 14th',
+        date: 'Jan 21st',
         description: 'Other Way from Worry',
         podcast: 'https://realitycarpinteria.com/sermons/the-other-way-from-worry/'
-    }, {
-        date: 'Jan 21st',
-        description: 'You are a Hypocrite',
-        podcast: 'https://realitycarpinteria.com/sermons/you-are-a-judgmental-hypocrite/'
     }, {
         date: 'Jan 28th',
         location: 'TBD',
         description: 'Social Event!',
         time: 'TBD'
     }],
-    'February': [{
+    'February': [ {
         date: 'Feb 4th',
+        description: 'You are a Hypocrite',
+        podcast: 'https://realitycarpinteria.com/sermons/you-are-a-judgmental-hypocrite/'
+    }, {
+        date: 'Feb 11th',
         description: 'Problem with Prayer',
         podcast: 'https://realitycarpinteria.com/sermons/the-problem-with-prayer/'
     }, {
-        date: 'Feb 11th',
+        date: 'Feb 18th',
         description: 'Great Was the Fall',
         podcast: 'https://realitycarpinteria.com/sermons/great-was-the-fall-of-it/'
-    }, {
-        date: 'Feb 18th',
-        description: 'Sermon on the Mount Recap'
     }, {
         date: 'Feb 25th',
         description: 'Session Close-out Party'
