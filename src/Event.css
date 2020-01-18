@@ -16,6 +16,13 @@
     padding: 2rem;
 }
 
+.Event-podcast {
+    /* Make it easier to click */
+    display: block;
+    padding: 1rem;
+    margin: -1rem;
+}
+
 .Event-description {
     color: var(--orange);
     font-size: var(--heading-font);

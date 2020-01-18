@@ -6,7 +6,8 @@
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.2"
+    "react-scripts": "3.1.2",
+    "react-tabs": "^3.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -14,7 +15,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "lint": "eslint --ext js,jsx src"
   },
   "eslintConfig": {
     "extends": "react-app"

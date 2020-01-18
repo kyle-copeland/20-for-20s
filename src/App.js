@@ -1,8 +1,27 @@
 import React from 'react';
 import './App.css';
 import './Event.css';
-import Event from './Event';
 import events from './data/events';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import EventSection from './EventSection';
+
+const pastEvents = {};
+const upcomingEvents = {};
+
+Object.keys(events).forEach(month => {
+  const now = Date.now();
+  events[month].forEach(event => {
+    const eventDate = new Date(event.date);
+    // Extend visibility of event to end of the day
+    eventDate.setDate(eventDate.getDate() + 1);
+    
+    if (eventDate.getTime() > now) {
+      upcomingEvents[month] =  upcomingEvents[month] ? [...upcomingEvents[month], event] : [event];
+    } else {
+      pastEvents[month] = pastEvents[month] ? [...pastEvents[month], event] : [event];
+    }
+  });
+});
 
 function App() {
   return (
@@ -21,18 +40,18 @@ function App() {
           
         </div>
         <h2>Schedule</h2>
-        {Object.keys(events).map((month) => {
-          return (
-            <div>
-              <h3 className="Month">{month}</h3>
-              <ul className="Events">
-                {events[month].map(event => {
-                  return <Event {...event} key={event.date} />
-                })}
-            </ul>
-          </div>
-          );
-        })}
+        <Tabs>
+          <TabList>
+            <Tab><h3>Upcoming Events</h3></Tab>
+            <Tab><h3>Past Events</h3></Tab>
+          </TabList>
+          <TabPanel>
+            <EventSection events={upcomingEvents} />
+          </TabPanel>
+          <TabPanel>
+            <EventSection events={pastEvents} />
+          </TabPanel>
+        </Tabs>
         <div className="Banner Banner--about-us">
           <div className="Banner-fade"></div>
           <p className="Banner-text">About 20 for 20's</p>

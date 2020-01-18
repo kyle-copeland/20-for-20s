@@ -1,0 +1,25 @@
+/* React Tabs overrides */
+.react-tabs__tab-list {
+    border:none;
+    display:flex;
+}
+
+.react-tabs__tab--selected{
+    background: var(--red);  
+    border-radius: 0;
+    color: white; 
+}
+
+.react-tabs__tab {
+    flex: 1;
+    border: 1px solid var(--red);
+    border-width: 1px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.react-tabs__tab:hover {
+    background:var(--dark-red);
+    color: white;
+}
