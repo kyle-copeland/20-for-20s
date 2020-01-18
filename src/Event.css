@@ -2,9 +2,11 @@
     list-style: none;
     margin: auto;
     max-width: 100rem;
-    padding: 0;
-    margin-bottom: 5rem;
-    padding: 4rem;
+    padding: 0 3rem;
+}
+
+.Event:first-child {
+    border-top: solid 1px var(--orange);
 }
 
 .Event {

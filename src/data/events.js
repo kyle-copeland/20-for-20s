@@ -39,7 +39,7 @@ export default {
         time: 'TBD'
     }],
     'December': [{
-        date: 'Dec 3rd 2019',
+        date: 'Dec 3 2019',
         description: 'The Lord\'s Prayer',
         podcast: 'https://realitycarpinteria.com/sermons/the-lords-prayer/'
     }, {
@@ -62,11 +62,11 @@ export default {
         podcast: 'https://realitycarpinteria.com/sermons/the-problem-with-treasure/'
     }, {
         date: 'Jan 21 2020',
-        description: 'The Ruthless Elimination of Hurry',
+        description: 'Elimination of Hurry',
         podcast: 'https://podcasts.apple.com/us/podcast/the-ruthless-elimination-of-hurry/id84246334?i=1000455322506'
     }, {
         date: 'Jan 28 2020',
-        description: 'The Case for a Digital Asceticism',
+        description: 'Digital Asceticism',
         podcast: 'https://podcasts.apple.com/us/podcast/the-case-for-a-digital-asceticism/id84246334?i=1000456631843'
     }],
     'February': [ {
@@ -86,7 +86,7 @@ export default {
         podcast: 'https://podcasts.apple.com/us/podcast/a-community-of-honor-in-a-culture-of-contempt/id84246334?i=1000445600520'
     }],
     'March': [{
-        date: 'Mar 3rd 2020',
+        date: 'Mar 3 2020',
         description: 'Socail Event'
     },{
         date: 'Mar 10 2020',

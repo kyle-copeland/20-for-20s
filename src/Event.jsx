@@ -4,6 +4,7 @@ const DEFAULT_TIME = '6:30pm';
 const DEFAULT_LOCATION = '26 Burning Tree, Newport Beach';
 
 export default ({date, location, description, time, podcast, moreInfo, details}) => {
+    console.log(date);
     const formattedDate = new Intl.DateTimeFormat('en-US', {month: 'short', day: 'numeric'}).format(new Date(date)); 
     return (
         <li className={'Event'}>
