@@ -87,7 +87,7 @@ export default {
     }],
     'March': [{
         date: 'Mar 3 2020',
-        description: 'Socail Event'
+        description: 'Social Event'
     },{
         date: 'Mar 10 2020',
         description: 'God & Sexuality',
