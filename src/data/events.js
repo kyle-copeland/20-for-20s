@@ -93,42 +93,43 @@ export default {
         description: 'God & Sexuality',
         podcast: 'https://podcasts.apple.com/us/podcast/god-sexuality/id84246334?i=1000431575429'
     }, {
-        date: 'Mar 17 2020',
+        date: 'Mar 31 2020',
         description: 'Sexual Formation',
         podcast: 'https://podcasts.apple.com/us/podcast/sexual-formation/id84246334?i=1000432299261'
-    }, {
-        date: 'Mar 24 2020',
-        description: 'Singleness',
-        podcast: 'https://podcasts.apple.com/us/podcast/singleness/id84246334?i=1000432917152'
-    }, {
-        date: 'Mar 31 2020',
-        description: 'Marriage',
-        podcast: 'https://podcasts.apple.com/us/podcast/marriage/id84246334?i=1000432749772'
     }],
     'April': [{
         date: 'Apr 7 2020',
-        description: 'Social Event'
+        description: 'Singleness',
+        podcast: 'https://podcasts.apple.com/us/podcast/singleness/id84246334?i=1000432917152'
     }, {
         date: 'Apr 14 2020',
-        description: 'This Cultural Moment - Part 1'
+        description: 'Marriage',
+        podcast: 'https://podcasts.apple.com/us/podcast/marriage/id84246334?i=1000432749772'
     }, {
         date: 'Apr 21 2020',
-        description: 'This Cultural Moment - Part 2'
+        description: 'Social Event'
     }, {
         date: 'Apr 28 2020',
-        description: 'This Cultural Moment - Part 3'
+        description: 'This Cultural Moment - Part 1'
     }],
     'May': [{
         date: 'May 5 2020',
-        description: 'Social Event'
+        description: 'This Cultural Moment - Part 2'
     }, {
-        date: 'May 12 2020',
-        description: 'This Cultural Moment - Part 4'
+        date: 'Apr 12 2020',
+        description: 'This Cultural Moment - Part 3'
     }, {
         date: 'May 19 2020',
-        description: 'This Cultural Moment - Part 5'
+        description: 'Social Event'
     }, {
         date: 'May 26 2020',
+        description: 'This Cultural Moment - Part 4'
+    }],
+    'June': [{
+        date: 'Jun 2 2020',
+        description: 'This Cultural Moment - Part 5'
+    }, {
+        date: 'Jun 9 2020',
         description: 'Year-End Party'
     }]
 
